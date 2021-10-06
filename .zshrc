@@ -20,14 +20,12 @@ export NODE_OPTIONS="--max-old-space-size=8192"
 
 # ALIAS
 alias g='git'
-alias gf='git fetch'
-alias gfc='git fetch && git checkout'
-alias gs='git status'
-alias ga='git add . && git status'
-alias gco='git checkout'
-alias gci='git commit -m'
-alias gp='git push origin'
-alias gu='git pull origin'
+alias gp='g p'
+alias gu='g u'
+alias gs='g st'
+alias gf='g f'
+alias ga='g add . && gs'
+alias gfc='gf && g co'
 alias cl='clear'
 alias v=openNvim
 

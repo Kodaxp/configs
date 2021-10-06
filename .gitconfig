@@ -7,3 +7,9 @@
 	lod = log --oneline --decorate
 	unstage = reset HEAD --
 	uncommit = reset --soft HEAD~1
+	co = checkout
+	ci = commit -m
+	p = push origin
+	u = pull origin
+	st = status
+	f = fetch
