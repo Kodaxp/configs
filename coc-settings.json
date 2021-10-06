@@ -1,0 +1,21 @@
+{
+	"languageserver": {
+		"dart": {
+			"command": "dart_language_server",
+			"args": [],
+			"filetypes": ["dart"],
+			"initializationOptions": {},
+			"settings": {
+				"dart": {
+					"validation": {},
+					"completion": {}
+				}
+			}
+		},
+		"dockerfile": {
+			"command": "docker-langserver",
+			"filetypes": ["dockerfile"],
+			"args": ["--stdio"]
+		}
+	}
+}
