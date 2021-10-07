@@ -33,6 +33,7 @@ let g:coc_global_extensions = [
       \ 'coc-java',
       \ 'coc-jest',
       \ 'coc-yaml',
+      \ 'coc-tabnine',
       \ 'coc-json'
       \ ]
 
