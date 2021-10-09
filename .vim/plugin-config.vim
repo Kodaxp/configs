@@ -40,6 +40,7 @@ let NERDTreeAutoDeleteBuffer=1
 let NERDTreeDirArrows=1
 let NERDTreeShowLineNumbers=1
 let NERDTreeMapOpenInTab='\t'
+let g:NERDTreeWinSize=50
 
 " COC GLOBAL CONFIG
 let g:coc_global_extensions = [
