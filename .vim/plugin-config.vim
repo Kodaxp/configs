@@ -25,8 +25,10 @@ let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.html,*.graphql PrettierAsync
 
 " PRETTIER OPTIONS
-let g:prettier#config#print_width=120
-let g:prettier#config#single_quote="false"
+let g:prettier#config#print_width=150
+let g:prettier#config#single_quote="true"
+let g:prettier#config#bracket_spacing="true"
+let g:prettier#config#bracket_same_line="true"
 let g:prettier#config#use_tabs="true"
 let g:prettier#config#tabs_width=1
 let g:prettier#config#trailing_comma="none"
@@ -50,6 +52,8 @@ let g:coc_global_extensions = [
       \ 'coc-java',
       \ 'coc-jest',
       \ 'coc-yaml',
+      \ 'coc-ultisnips',
+      \ 'coc-css',
       \ 'coc-json'
       \ ]
 

@@ -48,8 +48,8 @@ map <C-p> :Files<CR>
 map <C-f> :Ag<CR>
 
 " FASTER SCROLL
-nnoremap <C-j> 10<C-e>
-nnoremap <C-k> 10<C-y>
+nnoremap <C-j> 10j<C-e>
+nnoremap <C-k> 10k<C-y>
 nmap <Leader>s <Plug>(easymotion-s2)
 
 " TMUX NAV 
