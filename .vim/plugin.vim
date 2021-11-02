@@ -8,7 +8,7 @@ call plug#begin('~/configs/.vim/plugged')
 
     " IDE
     Plug 'scrooloose/nerdtree'
-	Plug 'scrooloose/nerdtree-project-plugin'
+    Plug 'scrooloose/nerdtree-project-plugin'
     Plug 'w0rp/ale'
     Plug 'prettier/vim-prettier'
     Plug 'christoomey/vim-tmux-navigator'

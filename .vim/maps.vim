@@ -14,8 +14,7 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>Q :q!<CR>
 
-" NERDTREE, BUFFERS
-nmap <Leader>n :NERDTreeFind<CR>
+" BUFFERS
 map <Leader>ob :Buffers<cr>
 
 " EJECUTAR NODE FILE
@@ -151,3 +150,14 @@ function! OpenTerminal()
   endif
 endfunction
 nnoremap <C-t> :call OpenTerminal()<CR>
+
+" NERDTREE
+set splitright
+function! OpenNerdTree()
+  if exists('b:NERDTree')
+    execute ":NERDTreeFocus"
+  else
+    execute ":NERDTreeFind"
+  endif
+endfunction
+nmap <Leader>n :call OpenNerdTree()<CR>
