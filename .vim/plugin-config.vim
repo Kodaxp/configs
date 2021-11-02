@@ -1,15 +1,15 @@
 " LIGHTLINE CONFIG
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ], [],
-      \             [ 'relativepath' ] ],
+      \   'left': [ [ 'mode', 'paste' ], [], [ 'relativepath' ] ],
       \   'right': [[], ['filetype'], ['modified', 'gitbranch']]
       \ },
       \ 'component_function': {
       \   'gitbranch': 'FugitiveHead'
       \ },
+      \ 'colorscheme': 'gruvbox',
       \ }
+let g:lightline.colorscheme = 'gruvbox'
 
 " GRUVBOX COLOR
 colorscheme gruvbox

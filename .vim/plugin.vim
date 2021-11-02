@@ -17,6 +17,7 @@ call plug#begin('~/configs/.vim/plugged')
 
     " STATUS LINE
     Plug 'itchyny/lightline.vim'
+    Plug 'shinchu/lightline-gruvbox.vim'
 
     " TEST
     Plug 'tyewang/vimux-jest-test'
