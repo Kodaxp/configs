@@ -152,12 +152,5 @@ endfunction
 nnoremap <C-t> :call OpenTerminal()<CR>
 
 " NERDTREE
-set splitright
-function! OpenNerdTree()
-  if exists('b:NERDTree')
-    execute ":NERDTreeFocus"
-  else
-    execute ":NERDTreeFind"
-  endif
-endfunction
-nmap <Leader>n :call OpenNerdTree()<CR>
+nnoremap <silent><expr> <leader>n bufname(winbufnr(0))=='[BufExplorer]' ? ":ToggleBufExplorer\<CR>:NERDTreeFocus\<CR>" : (winnr()==g:NERDTree.GetWinNum() ? ":NERDTreeClose\<CR>" : ":NERDTreeFocus\<CR>")
+
