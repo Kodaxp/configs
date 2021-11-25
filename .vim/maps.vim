@@ -57,6 +57,10 @@ nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <Leader><C-l> :TmuxNavigateRight<cr>
 
+" GIT LENS
+nnoremap <Leader>g :BlamerToggle<CR>
+let g:blamer_delay = 200
+
 " ===========================
 
 inoremap { {}<left>

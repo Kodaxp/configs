@@ -40,4 +40,5 @@ call plug#begin('~/configs/.vim/plugged')
 
     " GIT
     Plug 'tpope/vim-fugitive'
+    Plug 'APZelos/blamer.nvim'
 call plug#end()
