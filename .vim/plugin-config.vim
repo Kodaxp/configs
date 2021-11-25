@@ -70,4 +70,5 @@ let g:NERDTrimTrailingWhitespace = 1  " Quitar espacios al quitar comentario
 let g:tmux_navigator_no_mappings = 1
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 
-let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.10/bin/python3'
+let g:python3_host_prog = '/usr/local/bin/python3'
+" let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.10/bin/python3'
