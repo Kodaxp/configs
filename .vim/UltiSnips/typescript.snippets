@@ -3,11 +3,17 @@ console.log(${1:'$2', $3})
 endsnippet
 
 snippet fn "() => {}" i
-const $1 = ${2:($3)} => ${4:{
-  $5
-}};
+const $1 = ${2:($3)} => ${4:{$5}};
 endsnippet
 
-snippet arf "() => {}" i
-${1:($2)} => ${3:{$4}};
+snippet af "() => {}" i
+${1:($2)} => ${3:{$4};}
+endsnippet
+
+snippet it "it('', () => {})" b
+it('$1', () => {$2});
+endsnippet
+
+snippet desc "describe('', () => {})" b
+describe('$1', () => {$2});
 endsnippet

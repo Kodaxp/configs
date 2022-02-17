@@ -12,7 +12,6 @@ call plug#begin('~/configs/.vim/plugged')
     Plug 'w0rp/ale'
     Plug 'prettier/vim-prettier'
     Plug 'christoomey/vim-tmux-navigator'
-    Plug 'yggdroot/indentline'
 	Plug 'sheerun/vim-polyglot'
 
     " STATUS LINE

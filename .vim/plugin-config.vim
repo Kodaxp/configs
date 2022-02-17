@@ -25,7 +25,7 @@ let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.html,*.graphql PrettierAsync
 
 " PRETTIER OPTIONS
-let g:prettier#config#print_width=150
+let g:prettier#config#print_width=140
 let g:prettier#config#single_quote="true"
 let g:prettier#config#bracket_spacing="true"
 let g:prettier#config#bracket_same_line="true"
@@ -42,7 +42,7 @@ let NERDTreeAutoDeleteBuffer=1
 let NERDTreeDirArrows=1
 let NERDTreeShowLineNumbers=1
 let NERDTreeMapOpenInTab='\t'
-let g:NERDTreeWinSize=50
+let g:NERDTreeWinSize=60
 
 " COC GLOBAL CONFIG
 let g:coc_global_extensions = [

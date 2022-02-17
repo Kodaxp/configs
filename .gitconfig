@@ -2,7 +2,8 @@
 	sslverify = false
 [user]
 	name = Joel Zúñiga
-	email = joelzuniga@outlook.cl 
+	email = joelzuniga@outlook.cl
+	; email = ext_jandzunigam@falabella.cl
 [alias]
 	lod = log --oneline --decorate
 	unstage = reset HEAD --
