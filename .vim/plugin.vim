@@ -42,9 +42,12 @@ call plug#begin('~/configs/.vim/plugged')
     Plug 'APZelos/blamer.nvim'
 
 
+	" TYPESCRIPT 
 	Plug 'leafgarland/typescript-vim'
 	Plug 'pangloss/vim-javascript'
 	Plug 'https://github.com/Shougo/vimproc.vim', {'do' : 'make'}
 	Plug 'https://github.com/Quramy/tsuquyomi'
 	Plug 'https://github.com/vim-syntastic/syntastic'
+	Plug 'maxmellon/vim-jsx-pretty'
+	Plug 'jparise/vim-graphql'
 call plug#end()
