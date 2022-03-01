@@ -18,7 +18,7 @@ export ANDROID_HOME=/Users/koda/Library/Android/sdk
 export ANDROID_SDK_ROOT=/Users/koda/Library/Android/sdk
 export NODE_OPTIONS="--max-old-space-size=8192"
 
-source ~/Documents/variableQa.sh
+# source ~/Documents/variableQa.sh
 
 # ALIAS
 alias g='git'
@@ -35,6 +35,7 @@ alias cl='clear'
 # alias cdp='cd ~/Documents/Frontend/privatesite-bfco'
 # alias cdk='cd ~/Documents/Proyectos/Kong'
 # alias envp='printenv'
+alias cdd='cd ~/Documents'
 alias v=openNvim
 
 # FUNCTIONS

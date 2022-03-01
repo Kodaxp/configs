@@ -12,7 +12,7 @@ call plug#begin('~/configs/.vim/plugged')
     Plug 'w0rp/ale'
     Plug 'prettier/vim-prettier'
     Plug 'christoomey/vim-tmux-navigator'
-	Plug 'sheerun/vim-polyglot'
+	" Plug 'sheerun/vim-polyglot'
 
     " STATUS LINE
     Plug 'itchyny/lightline.vim'
@@ -31,8 +31,8 @@ call plug#begin('~/configs/.vim/plugged')
     Plug 'scrooloose/nerdcommenter'
 
     " ULTISNIPPETS
-    Plug 'SirVer/ultisnips'
-    Plug 'honza/vim-snippets'
+	Plug 'SirVer/ultisnips'
+	Plug 'honza/vim-snippets'
 
     " COC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -40,4 +40,11 @@ call plug#begin('~/configs/.vim/plugged')
     " GIT
     Plug 'tpope/vim-fugitive'
     Plug 'APZelos/blamer.nvim'
+
+
+	Plug 'leafgarland/typescript-vim'
+	Plug 'pangloss/vim-javascript'
+	Plug 'https://github.com/Shougo/vimproc.vim', {'do' : 'make'}
+	Plug 'https://github.com/Quramy/tsuquyomi'
+	Plug 'https://github.com/vim-syntastic/syntastic'
 call plug#end()
