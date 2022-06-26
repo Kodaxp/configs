@@ -18,8 +18,6 @@ export ANDROID_HOME=/Users/koda/Library/Android/sdk
 export ANDROID_SDK_ROOT=/Users/koda/Library/Android/sdk
 export NODE_OPTIONS="--max-old-space-size=8192"
 
-# source ~/Documents/variableQa.sh
-
 # ALIAS
 alias g='git'
 alias gp='git push origin'
@@ -30,11 +28,7 @@ alias gci='git commit -m'
 alias ga='git add . && git status'
 alias gfc='git fetch && git checkout'
 alias cl='clear'
-# alias cdb='cd ~/Documents/Proyectos/Biometria'
-# alias cda='cd ~/Documents/Proyectos/Actualizacion-Datos'
-# alias cdp='cd ~/Documents/Frontend/privatesite-bfco'
-# alias cdk='cd ~/Documents/Proyectos/Kong'
-# alias envp='printenv'
+alias dk='docker'
 alias cdd='cd ~/Documents'
 alias v=openNvim
 
