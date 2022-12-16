@@ -30,6 +30,8 @@ alias gfc='git fetch && git checkout'
 alias cl='clear'
 alias dk='docker'
 alias cdd='cd ~/Documents'
+alias cdk='cd ~/Documents/docker-projects'
+alias fifp='cd ~/Documents/falabella-financiero/fif-projects'
 alias v=openNvim
 
 # FUNCTIONS
@@ -40,3 +42,7 @@ function openNvim {
     nvim $1
   fi
 }
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
